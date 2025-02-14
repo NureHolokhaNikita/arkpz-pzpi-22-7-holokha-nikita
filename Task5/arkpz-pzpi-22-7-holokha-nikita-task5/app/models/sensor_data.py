@@ -23,7 +23,7 @@ class SensorData(db.Model):
             new_sensor_data = SensorData(
                 sensor_id=data.get("sensor_id"),
                 measurement_value=data.get("measurement_value"),
-                measurement_time=data.get("measurement_time", datetime.utcnow())  # Дата може бути передана або встановлена автоматично
+                measurement_time=data.get("measurement_time", datetime.utcnow()) 
             )
             db.session.add(new_sensor_data)
             db.session.commit()

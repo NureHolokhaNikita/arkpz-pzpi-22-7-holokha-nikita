@@ -341,7 +341,11 @@ d. 1.8	Специфікація розробленого API
      * POST /devices – Додати новий пристрій (user_id, device_type, status).
      * PUT /devices/<int:device_id> – Оновити інформацію про пристрій.
      * DELETE /devices/<int:device_id> – Видалити пристрій.
-     * 
+
+Посилання на файл з кодом в GitHub репозиторії:
+https://github.com/NureHolokhaNikita/arkpz-pzpi-22-7-holokha-nikita
+Посилання на YouTube відео з презентацією:
+https://youtu.be/j2j9zy3jqvE
 2
 
 

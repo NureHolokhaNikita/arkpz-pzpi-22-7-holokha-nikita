@@ -1,6 +1,3 @@
-#define BLYNK_TEMPLATE_ID "TMPL3YzQf0CgC"
-#define BLYNK_TEMPLATE_NAME "Smart Plant Monitoring System"
-
 #include <DHT.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
@@ -17,8 +14,8 @@
 #define WIFI_PASS ""
 
 // Сервер API
-const char* registerURL = "http://dab5-176-37-195-79.ngrok-free.app/sensors";
-const char* sensorDataURL = "http://dab5-176-37-195-79.ngrok-free.app/sensor_data";
+const char* registerURL = " http://7677-81-162-246-225.ngrok-free.app/sensors";
+const char* sensorDataURL = " http://7677-81-162-246-225.ngrok-free.app/sensor_data";
 
 DHT dht(DHT_PIN, DHT_TYPE);
 
